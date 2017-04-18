@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'            #支持的平台及版本
   s.requires_arc = true                   #是否使用ARC，如果指定具体文件，则具体的问题使用ARC
  
-  s.source_files = "Classes/**/*.{h,m}"    #代码源文件地址，**/*表示Classes目录及其子目录下所有文件，如果有多个目录下则用逗号分开，如果需要在项目中分组显示，这里也要做相应的设置
+  s.source_files = "SAProtocolManager/**/*.{h,m}"    #代码源文件地址，**/*表示Classes目录及其子目录下所有文件，如果有多个目录下则用逗号分开，如果需要在项目中分组显示，这里也要做相应的设置
 
   s.frameworks = 'UIKit'                  #所需的framework，多个用逗号隔开
 
