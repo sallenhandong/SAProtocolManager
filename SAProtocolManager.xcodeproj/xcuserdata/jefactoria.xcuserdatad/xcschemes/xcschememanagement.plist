@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CRProtocolManager.xcscheme</key>
+		<key>SAProtocolManager.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>90C39DF91E0682D000800668</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>90C39E121E0682D000800668</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>90C39E1D1E0682D100800668</key>
+		<key>98A5E5A81EA4BACD00816314</key>
 		<dict>
 			<key>primary</key>
 			<true/>

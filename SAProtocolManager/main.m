@@ -1,9 +1,9 @@
 //
 //  main.m
-//  CRProtocolManager
+//  SAProtocolManager
 //
-//  Created by Charon on 16/12/18.
-//  Copyright © 2016年 Charon. All rights reserved.
+//  Created by jefactoria on 2017/4/17.
+//  Copyright © 2017年 sallen. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

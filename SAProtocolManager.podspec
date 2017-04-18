@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.summary      = "A short description of SAProtocolManager."
 
   s.description  = <<-DESC
-                   This is CRProtocolManager
+                   This is SAProtocolManager
                    DESC
 
   s.homepage     = "https://github.com/sallenhandong/SAProtocolManager"
@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "SALLEN" => "sun6boys@126.com" }
+  s.author             = { "Charon" => "sun6boys@126.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -82,7 +82,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "CRProtocolManager/CRProtocolManager/**/*.{h,m}"
+  s.source_files  = "SAProtocolManager/SAProtocolManager/**/*.{h,m}"
  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -108,11 +108,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
 
-  # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -123,8 +119,6 @@ Pod::Spec.new do |s|
 
   # s.requires_arc = true
 
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
 
   # s.social_media_url   = "http://twitter.com/15370989688"
 end

@@ -1,30 +1,29 @@
 //
-//  CRProtocolManager.m
-//  CRProtocolManager
+//  SAProtocolManager.m
+//  SAProtocolManager
 //
-//  Created by Charon on 16/12/18.
-//  Copyright © 2016年 Charon. All rights reserved.
+//  Created by jefactoria on 2017/4/17.
+//  Copyright © 2017年 sallen. All rights reserved.
 //
 
-#import "CRProtocolManager.h"
+#import "SAProtocolManager.h"
 
-@interface CRProtocolManager ()
-
+@interface SAProtocolManager ()
 @property (nonatomic, strong) NSMutableDictionary *serviceProvideSource;
+
+
 @end
 
-@implementation CRProtocolManager
-
-+ (CRProtocolManager *)sharedInstance
+@implementation SAProtocolManager
++ (SAProtocolManager *)sharedInstance
 {
-    static CRProtocolManager * instance;
+    static SAProtocolManager * instance;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         instance = [[self alloc] init];
     });
     return instance;
 }
-
 - (instancetype)init
 {
     self = [super init];
@@ -45,6 +44,11 @@
 {
     return [[self sharedInstance].serviceProvideSource objectForKey:NSStringFromProtocol(protocol)];
 }
+
+
+
+
+
 
 
 
